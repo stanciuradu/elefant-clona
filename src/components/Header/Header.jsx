@@ -4,14 +4,17 @@ import logo from "../../assets/images/logo.png";
 import cont from "../../assets/images/cont.png";
 import favorite from "../../assets/images/favorite.png";
 import cart from "../../assets/images/cart.png";
+import search from "../../assets/images/search.png";
 
 function Header() {
   return (
     <div className="header">
       <img src={logo} alt="Logo" />
       <div className="input-search">
-        <input type="search" name="" id=""  />
-        <button type="button">Search</button>
+        <input type="search" name="" id="" placeholder="Căutati cuvantul cheie, codul de produs, tip produs" />
+        <button type="button">
+          <img src={search} alt="Search" />
+        </button>
       </div>
       <div className="buttons-header">
         <button type="button" className="conectare">

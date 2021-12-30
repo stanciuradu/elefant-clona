@@ -10,6 +10,7 @@
 .header .input-search input {
   width: 48vh;
   height: 5vh;
+  padding: 2vh;
 }
 .header .input-search button {
   height: 5vh;
@@ -41,4 +42,23 @@
 }
 .header .buttons-header .buttons-products .Favorite {
   margin-left: 0.5rem;
+}
+.header .input-search button {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  background: #7ed321;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+.header .input-search button:hover {
+  background-color: rgb(214, 49, 49);
+}
+.header .input-search ::after {
+  content: "";
+  clear: both;
+  display: table;
 }
