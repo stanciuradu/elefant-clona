@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.header .input-search {
+  display: flex;
+  align-items: center;
+}
+.header .input-search input {
+  width: 48vh;
+  height: 5vh;
+}
+.header .input-search button {
+  height: 5vh;
+  background-color: #7ed321;
+  color: white;
+  cursor: pointer;
+}
+.header .buttons-header {
+  display: flex;
+  align-items: center;
+}
+.header .buttons-header .conectare {
+  background-color: white;
+  color: grey;
+  border-radius: 10vh;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.header .buttons-header .buttons-products {
+  display: flex;
+}
+.header .buttons-products button {
+  background-color: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.header .buttons-header .buttons-products .Favorite {
+  margin-left: 0.5rem;
+}
