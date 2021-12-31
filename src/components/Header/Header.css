@@ -2,6 +2,7 @@
   display: flex;
   text-align: center;
   justify-content: space-around;
+  margin-bottom: 1rem;
 }
 .header .input-search {
   display: flex;
@@ -41,7 +42,7 @@
   margin: 0.5rem;
 }
 .header .buttons-header .buttons-products .Favorite {
-  margin-left: 0.5rem;
+  margin-left: 0.8rem;
 }
 .header .input-search button {
   float: left;

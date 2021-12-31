@@ -8,31 +8,38 @@ import search from "../../assets/images/search.png";
 
 function Header() {
   return (
-    <div className="header">
-      <img src={logo} alt="Logo" />
-      <div className="input-search">
-        <input type="search" name="" id="" placeholder="Căutati cuvantul cheie, codul de produs, tip produs" />
-        <button type="button">
-          <img src={search} alt="Search" />
-        </button>
-      </div>
-      <div className="buttons-header">
-        <button type="button" className="conectare">
-          CONECTARE
-        </button>
-        <div className="buttons-products">
-          <button>
-            <img src={cont} alt="User" />
-            <label htmlFor="">Cont</label>
+    <div className="container">
+      <div className="header">
+        <img src={logo} alt="Logo" />
+        <div className="input-search">
+          <input
+            type="search"
+            name=""
+            id=""
+            placeholder="Căutati cuvantul cheie, codul de produs, tip produs"
+          />
+          <button type="button">
+            <img src={search} alt="Search" />
           </button>
-          <button>
-            <img src={favorite} alt="Favorite" className="Favorite" />
-            <label htmlFor="">Favorite</label>
+        </div>
+        <div className="buttons-header">
+          <button type="button" className="conectare">
+            CONECTARE
           </button>
-          <button>
-            <img src={cart} alt="Cart" />
-            <label htmlFor="">Cos</label>
-          </button>
+          <div className="buttons-products">
+            <button>
+              <img src={cont} alt="User" />
+              <label htmlFor="">Cont</label>
+            </button>
+            <button>
+              <img src={favorite} alt="Favorite" className="Favorite" />
+              <label htmlFor="">Favorite</label>
+            </button>
+            <button>
+              <img src={cart} alt="Cart" />
+              <label htmlFor="">Cos</label>
+            </button>
+          </div>
         </div>
       </div>
     </div>
