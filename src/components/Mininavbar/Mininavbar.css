@@ -1,13 +1,13 @@
-.mininavbar ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-start;
-    margin-top: 1rem;
+.mininavbar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  margin-top: 1rem;
 }
-.mininavbar button{
-    display: flex;
-    margin-right: 0.5rem;
-    cursor: pointer;
-    border-radius: 1rem;
-    background-color: #efefef;
+.mininavbar button {
+  display: flex;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: #efefef;
 }

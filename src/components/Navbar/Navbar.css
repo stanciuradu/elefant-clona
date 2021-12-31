@@ -1,16 +1,16 @@
-.navbar ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
-.navbar li{
-    display: flex;
-    margin-right: 2rem;
-    cursor: pointer;
+.navbar li {
+  display: flex;
+  margin-right: 2rem;
+  cursor: pointer;
 }
-.navbar{
-    padding: 3vh;
-    background-color: #efefef;
+.navbar {
+  padding: 3vh;
+  background-color: #efefef;
 }
