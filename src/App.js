@@ -1,18 +1,17 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/Navbar";
-import Mininavbar from "./components/Mininavbar/Mininavbar";
-import Banner from "./components/Banner/Banner";
-import Categories from "./components/Categories/Categories";
+// s-a facut un update la react-router-dom. De la V6, componenta Switch este inlocuita cu Routes
+// iar fiecare ruta nu mai are un component, ci un element in care se instantiaza paginile
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
 import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Navbar />
-      <Mininavbar />
-      <Banner />
-      <Categories />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/login" element={<Login/>} />
+      </Routes>
     </div>
   );
 }

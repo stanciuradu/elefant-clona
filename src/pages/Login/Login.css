@@ -1,0 +1,13 @@
+.login h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .container input{
+    display: flex;
+    flex-direction: column;
+}
+.login .container .input-checkbox{
+    display: flex;
+    align-items: center;
+}

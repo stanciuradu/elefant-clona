@@ -5,12 +5,15 @@ import cont from "../../assets/images/cont.png";
 import favorite from "../../assets/images/favorite.png";
 import cart from "../../assets/images/cart.png";
 import search from "../../assets/images/search.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="container">
       <div className="header">
-        <img src={logo} alt="Logo" />
+        <Link to="/">
+          <img src={logo} alt="Logo" />
+        </Link>
         <div className="input-search">
           <input
             type="search"
