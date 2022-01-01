@@ -7,3 +7,29 @@
   width: 80%;
   margin-top: 1rem;
 }
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 0.1rem solid rgb(247, 204, 204);
+  border-radius: 3px;
+  padding: 25px;
+  backface-visibility: hidden;
+  transform: translate(0);
+  transition: transform 0.25 ease-out;
+  justify-content: center;
+  align-items: center;
+  font-family: "EB Garamond", serif;
+  margin-bottom: 1rem;
+}
+.col-3 :hover {
+  transform: scale(1.05);
+}
+.col-3 .border {
+  width: 40px;
+  height: 3px;
+  background-color: rgb(161, 57, 57);
+  margin-bottom: 10px;
+  margin-top: 0px;
+  border: none;
+}

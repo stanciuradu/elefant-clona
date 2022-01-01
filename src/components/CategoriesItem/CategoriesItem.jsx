@@ -9,6 +9,7 @@ function CategoriesItem(props) {
       <h2>
         <em>{name}</em>
       </h2>
+      <p className="border"></p>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.col-3 .description {
+  text-align: center;
+  font-size: medium;
+}
+.col-3 .price {
+  color: red;
+}
+.col-3 .price-top {
+  font-size: 75%;
+  position: relative;
+  vertical-align: baseline;
+  top: -2.5rem;
+  line-height: 0;
+  color: red;
+}

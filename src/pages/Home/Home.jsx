@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Mininavbar from "../../components/Mininavbar/Mininavbar";
 import Banner from "../../components/Banner/Banner";
 import Categories from "../../components/Categories/Categories";
+import Recomands from "../../components/Recomands/Recomands";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Mininavbar />
       <Banner />
       <Categories />
+      <Recomands />
     </div>
   );
 }
