@@ -18,6 +18,7 @@ export class Recomands extends Component {
             <div className='container'>
                 <h1>Recomandări pentru tine</h1>
                 <RecomandsList recomands={this.state.recomands} />
+                <h1>Oferte speciale</h1>
             </div>
         );
     }
