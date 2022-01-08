@@ -5,6 +5,7 @@ import Mininavbar from "../../components/Mininavbar/Mininavbar";
 import Banner from "../../components/Banner/Banner";
 import Categories from "../../components/Categories/Categories";
 import Recomands from "../../components/Recomands/Recomands";
+import SpecialOferts from "../../components/SpecialOferts/SpecialOferts";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Banner />
       <Categories />
       <Recomands />
+      <SpecialOferts />
     </div>
   );
 }

@@ -1,0 +1,34 @@
+[
+    {
+      "image": "https://mcdn.elefant.ro/mnresize/350/350/is/product-images/cartero/0cde0fff/b597/4099/bc3a/48215099fb25/0cde0fff-b597-4099-bc3a-48215099fb25_1.jpg",
+      "name": "Coolen Hover",
+      "description": "Verity",
+      "RRP": "38,9 lei",
+      "price": "23, lei",
+      "priceTop":"34"
+    },
+    {
+      "image": "https://mcdn.elefant.ro/mnresize/350/350/is/product-images/jucarii/a893eb7d/b35f/4924/b354/6c579df381f8/a893eb7d-b35f-4924-b354-6c579df381f8_1.jpg",
+      "name": "Simav",
+      "description": "Punga cadou S, 15x26 cm",
+      "RRP": "5,49 lei",
+      "price": "2, lei",
+      "priceTop":"99"
+    },
+    {
+      "image": "https://mcdn.elefant.ro/mnresize/350/350/is/product-images/cartero/6d1e184e/0b43/4753/816f/552278985473/6d1e184e-0b43-4753-816f-552278985473_1.jpg",
+      "name": "Gabor Mate",
+      "description": "Când corpul spune nu. Costul stresului ascuns",
+      "RRP": "60 lei",
+      "price": "36, lei",
+      "priceTop":"00"
+    },
+    {
+      "image": "https://mcdn.elefant.ro/mnresize/350/350/is/product-images/cartero/ac5aee85/6934/4b94/a2a0/79a403abbff4/ac5aee85-6934-4b94-a2a0-79a403abbff4_1.PNG",
+      "name": "Delia Owens",
+      "description": "Acolo unde cântă racii",
+      "RRP": "49 lei",
+      "price": "29, lei",
+      "priceTop":"40"
+    }
+  ]
